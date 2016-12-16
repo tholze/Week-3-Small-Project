@@ -1,0 +1,55 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Small Project</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href="./app.css" rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <h1>Small Project</h1>
+  <br><br><br>
+  <h2>Balances</h2>
+  <br><br>
+
+  <table>
+    <tr>
+      <th></th>
+      <th>Address</th>
+      <th>Balance</th>
+    </tr>
+    <tr>
+      <th>Contract</th>
+      <td><span id="addressContract"></span></td>
+      <td><span id="balanceContract"></span></td>
+    </tr>
+    <tr>
+      <th>Server</th>
+      <td><span id="addressA"></span></td>
+      <td><span id="balanceA"></span></td>
+    </tr>
+    <tr>
+      <th>Felix</th>
+      <td><span id="addressB"></span></td>
+      <td><span id="balanceB"></span></td>
+    </tr>
+    <tr>
+      <th>Coinbase</th>
+      <td><span id="addressCoinbase"></span></td>
+      <td><span id="balanceCoinbase"></span></td>
+    </tr>
+  </table>
+
+
+  <br><br>
+  <h2>Send Ether</h2>
+  <br><br>
+  <input type="text" id="amount" placeholder="Enter Ether here"></input><button id="send" onclick="split()">Send</button>
+
+  <br><br>
+  <span id="status"></span>
+  <br><br><br>
+</body>
+</html>
